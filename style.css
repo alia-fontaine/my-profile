@@ -1,0 +1,126 @@
+body {
+
+	background-color: #BDD2B6;
+	color: #1A554F;
+	font-family: 'Nanum Myeongjo', serif;
+}
+h1,h2{
+font-family: 'Prata', serif;
+color: #003744;}
+
+h1{
+	color: #003744;
+	font-weight: 100;
+	font-size: 50px;
+}
+
+a{
+	text-decoration: none;
+	color: #FDA856;
+	font-family: garamont;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #781D42;
+}
+
+/* Custom design with class (99% of your design) */
+
+.container {
+	width: 750px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 720px) {
+ 	
+ 	.container {
+ 		width: 600px;
+ 	}
+ }
+
+ @media (max-width: 500px) {
+
+ 	.container {
+ 		width: 400px;
+ 	}
+ }
+
+
+.box-beige {
+	background-color: #f8ede3;
+	padding: 50px;
+	margin: 30px 0px;
+	box-shadow: 6px 4px 15px;
+	border-radius: 6px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-orange {
+	background-color: #1A554F;
+	color: #FDA856;
+	padding: 15px 20px;
+	border-radius: 5px;
+	transition: color 0.3s ease;
+}
+
+.btn-orange:hover {
+	background-color: #781D42;
+	color: #FDA856;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 50px;
+}
+
+/* Design adjustment using id (1% design remainig) */
+
+#introduction p {
+	margin-bottom: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
